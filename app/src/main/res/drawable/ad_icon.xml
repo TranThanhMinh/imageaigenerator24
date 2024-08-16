@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="23dp"
+    android:width="23dp"
+    android:viewportWidth="23"
+    android:viewportHeight="23">
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M20.385,6.654H2.615C1.723,6.654 1,7.377 1,8.269V20.385C1,21.277 1.723,22 2.615,22H20.385C21.277,22 22,21.277 22,20.385V8.269C22,7.377 21.277,6.654 20.385,6.654Z"
+        android:strokeColor="#ffffff"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M3.424,6.654L22.001,1"
+        android:strokeColor="#ffffff"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M7.319,13.734L7.715,15.092H6.565L6.971,13.735C7.028,13.539 7.09,13.292 7.145,13.06C7.2,13.292 7.262,13.539 7.319,13.734ZM14.797,12.314H14.145V16.687H14.797C16.135,16.687 16.872,15.904 16.872,14.483C16.872,13.056 16.086,12.314 14.797,12.314ZM23,8.125V20.875C23,22.049 22.035,23 20.844,23H2.156C0.965,23 0,22.049 0,20.875V8.125C0,6.951 0.965,6 2.156,6H20.844C22.035,6 23,6.951 23,8.125ZM11.026,18.048L8.462,10.61C8.425,10.505 8.357,10.414 8.265,10.349C8.174,10.285 8.064,10.25 7.951,10.25H6.339C6.226,10.25 6.116,10.285 6.025,10.349C5.933,10.414 5.865,10.505 5.828,10.61L3.263,18.048C3.145,18.392 3.405,18.75 3.774,18.75H5.083C5.2,18.75 5.313,18.712 5.407,18.643C5.5,18.574 5.568,18.476 5.601,18.365L5.986,17.041H8.293L8.688,18.368C8.721,18.479 8.789,18.575 8.883,18.644C8.976,18.713 9.089,18.75 9.206,18.75H10.516C10.885,18.75 11.145,18.392 11.026,18.048ZM19.324,14.483C19.324,11.872 17.62,10.25 14.878,10.25H12.301C12.003,10.25 11.762,10.488 11.762,10.781V18.219C11.762,18.512 12.003,18.75 12.301,18.75H14.878C17.62,18.75 19.324,17.115 19.324,14.483Z"/>
+</vector>

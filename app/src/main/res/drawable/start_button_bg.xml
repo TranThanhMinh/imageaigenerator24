@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="50dp"
+    android:width="160dp"
+    android:viewportWidth="160"
+    android:viewportHeight="50">
+    <path
+        android:fillColor="@drawable/start_button_bg__0"
+        android:pathData="M10,0L150,0A10,10 0,0 1,160 10L160,40A10,10 0,0 1,150 50L10,50A10,10 0,0 1,0 40L0,10A10,10 0,0 1,10 0z"/>
+</vector>

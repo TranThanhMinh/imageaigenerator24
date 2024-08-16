@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt"
+    android:background="@drawable/aspect_ratio_background"
+    android:padding="8dp"
+    android:layout_width="60dp"
+    android:layout_height="30dp"
+    android:layout_marginEnd="@dimen/_10sdp">
+    <ImageView
+        android:id="@+id/ratioImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ratioTextView"
+        app:layout_constraintHeight_percent="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="@dimen/_8sdp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:id="@+id/ratioTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="1:1"
+        app:layout_constraintBottom_toBottomOf="@+id/ratioImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toEndOf="@+id/ratioImageView"
+        app:layout_constraintTop_toTopOf="@+id/ratioImageView"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

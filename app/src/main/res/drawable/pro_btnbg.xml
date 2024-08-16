@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="35dp"
+    android:width="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="35">
+    <path
+        android:fillColor="@drawable/pro_btnbg__0"
+        android:pathData="M17.5,0L62.5,0A17.5,17.5 0,0 1,80 17.5L80,17.5A17.5,17.5 0,0 1,62.5 35L17.5,35A17.5,17.5 0,0 1,0 17.5L0,17.5A17.5,17.5 0,0 1,17.5 0z"/>
+</vector>
