@@ -96,22 +96,18 @@
             android:screenOrientation="portrait"/>
         <activity
             android:name="com.demo.imageaigenerator24.activities.HomeActivity"
-            android:exported="false"
-            tools:node="merge"/>
+            android:exported="false" />
         <activity
             android:name="com.demo.imageaigenerator24.activities.SplashActivity"
             android:exported="false"
-            tools:node="merge"
             android:screenOrientation="portrait"/>
         <activity
             android:name="com.demo.imageaigenerator24.activities.DownloadedActivity"
              android:exported="false"
-            tools:node="merge"
             android:screenOrientation="portrait"/>
         <activity
             android:name="com.demo.imageaigenerator24.activities.SaveAndShareActivity"
             android:exported="false"
-            tools:node="merge"
             android:screenOrientation="portrait"/>
         <provider
             android:name="androidx.core.content.FileProvider"
