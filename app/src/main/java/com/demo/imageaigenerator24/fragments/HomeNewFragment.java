@@ -69,7 +69,7 @@ public class HomeNewFragment extends Fragment implements SpeechToTextListener, D
     public void onViewCreated(View view, Bundle bundle) {
         super.onViewCreated(view, bundle);
         Log.d("checkingonceaty", "onViewCreated: Homenrefragemnt ");
-        this.prefs = SharedPrefsHelper.getInstance(getActivity());
+       this.prefs = SharedPrefsHelper.getInstance(getActivity());
         clearBase64ImageInViewModel();
         this.imageView2ImageBtn = (ImageView) view.findViewById(R.id.image2image_btn);
         this.lock_layout = (ImageView) view.findViewById(R.id.lock_layout);
@@ -83,7 +83,7 @@ public class HomeNewFragment extends Fragment implements SpeechToTextListener, D
         this.recyclerView = (RecyclerView) view.findViewById(R.id.recyclerView);
         this.drawerLayout = (DrawerLayout) view.findViewById(R.id.drawer_layout);
         this.navView = (NavigationView) view.findViewById(R.id.nav_view);
-        DataAdapter dataAdapter = new DataAdapter(getActivity(), this.recyclerView, this, this, collectedData, this, this.prefs);
+         DataAdapter dataAdapter = new DataAdapter(getActivity(), this.recyclerView, this, this, collectedData, this, this.prefs);
         this.dataAdapter = dataAdapter;
         dataAdapter.setSharedText("Imagine a woman handcrafted by the Gods: She emerging from molten lava, levitating above the heart of a volcano. She in a otherworldly dress made by fire and ashes that shapes her body perfectly. Her face resembles of a beautiful woman with some magical elements. Her hair is fiery red and is fueled by the very energy of life itself, a throwback to The Creation at the same time connecting with today nature. Every element of this portrait should come together naturally creating that most beautiful concept art ever created. ");
         this.dataAdapter.setData(getMockData());
