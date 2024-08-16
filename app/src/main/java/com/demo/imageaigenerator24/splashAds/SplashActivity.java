@@ -11,7 +11,11 @@ import android.view.View;
 import android.view.Window;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import com.demo.imageaigenerator24.R;
@@ -35,6 +39,7 @@ public class SplashActivity extends AppCompatActivity {
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(R.layout.activity_splash);
+        AdsCommon.RegulerBanner(this, (RelativeLayout) findViewById(R.id.Admob_Banner_Frame), (LinearLayout) findViewById(R.id.banner_container), (FrameLayout) findViewById(R.id.qureka));
         if (Build.VERSION.SDK_INT >= 21) {
             Window window = getWindow();
             window.addFlags(Integer.MIN_VALUE);
@@ -52,7 +57,7 @@ public class SplashActivity extends AppCompatActivity {
                 public void run() {
                     SplashActivity.this.OpenAppAds();
                 }
-            }, 5000L);
+            }, 6000L);
             return;
         }
         final Dialog dialog = new Dialog(this, R.style.DialogTheme);

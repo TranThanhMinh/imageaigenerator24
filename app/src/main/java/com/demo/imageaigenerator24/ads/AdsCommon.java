@@ -2,6 +2,7 @@ package com.demo.imageaigenerator24.ads;
 
 import android.app.Activity;
 import android.content.Context;
+import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -25,7 +26,7 @@ public class AdsCommon {
 
     public static void InterstitialAdsOnly(Activity activity) {
         if (MyApplication.getuser_balance().intValue() == 0) {
-            MyApplication.AdsClickCount++;
+           // MyApplication.AdsClickCount++;
             if (MyApplication.AdsClickCount == MyApplication.click) {
                 MyApplication.AdsClickCount = 0;
 
@@ -52,10 +53,12 @@ public class AdsCommon {
 
     public static void RegulerBanner(Context context, RelativeLayout relativeLayout, LinearLayout linearLayout, FrameLayout frameLayout) {
         if (MyApplication.getuser_balance().intValue() == 0) {
-                relativeLayout.setVisibility(0);
+                relativeLayout.setVisibility(View.VISIBLE);
                 new AdMobBanner().showAd((Activity) context, relativeLayout, linearLayout, frameLayout, "type2", new AdMobBanner.adMobSmallAdCallback() { // from class: com.demo.imageaigenerator24.ads.AdsCommon.6
                     @Override // com.demo.imageaigenerator24.ads.admob.AdMobBanner.adMobSmallAdCallback
                     public void onAdError(String str) {
+                        relativeLayout.setVisibility(8);
+                        linearLayout.setVisibility(8);
                     }
 
                     @Override // com.demo.imageaigenerator24.ads.admob.AdMobBanner.adMobSmallAdCallback
@@ -64,7 +67,6 @@ public class AdsCommon {
                 });
                 return;
         }
-        relativeLayout.setVisibility(8);
-        linearLayout.setVisibility(8);
+
     }
 }

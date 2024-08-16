@@ -78,7 +78,7 @@
             android:value="true"/>
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
+            android:value="ca-app-pub-5751638294565515~7822443523"/>
         <meta-data
             android:name="applovin.sdk.key"
             android:value="@string/applovin_sdk_key"/>
@@ -112,7 +112,7 @@
         <provider
             android:name="androidx.core.content.FileProvider"
             android:exported="false"
-            android:authorities="com.demo.imageaigenerator24.provider"
+            android:authorities="com.minhdev.imageaigenerator24.provider"
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"

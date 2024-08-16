@@ -41,6 +41,26 @@
                 android:layout_marginRight="30dp"
                 android:text="@string/app_desc"
                 android:fontFamily="@font/regular"/>
+
+            <RelativeLayout
+                android:gravity="center"
+                android:id="@+id/relativeLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+                <RelativeLayout
+                    android:gravity="center"
+                    android:id="@+id/btm1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <include
+                        android:id="@+id/reguler_banner_ad"
+                        android:visibility="visible"
+                        layout="@layout/ads_layout_banner"/>
+                </RelativeLayout>
+            </RelativeLayout>
         </LinearLayout>
     </RelativeLayout>
     <RelativeLayout

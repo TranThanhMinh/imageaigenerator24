@@ -25,13 +25,19 @@ import java.util.Date;
 
 /* loaded from: classes.dex */
 public class MyApplication extends Application implements Application.ActivityLifecycleCallbacks, LifecycleObserver {
-    public static String AdMob_Banner1 = "ca-app-pub-3940256099942544/6300978111";
-    public static String AdMob_Int1 = "ca-app-pub-3940256099942544/1033173712";
-    public static String AdMob_Int2 = "ca-app-pub-3940256099942544/1033173712";
-    public static String AdMob_NativeAdvance1 = "ca-app-pub-3940256099942544/2247696110";
-    public static String AdMob_NativeAdvance2 = "ca-app-pub-3940256099942544/2247696110";
+   // public static String AdMob_Banner1 = "ca-app-pub-3940256099942544/6300978111";
+    public static String AdMob_Banner1 = "ca-app-pub-5751638294565515/3399617822";
+    //public static String AdMob_Int1 = "ca-app-pub-3940256099942544/1033173712";
+    public static String AdMob_Int1 = "ca-app-pub-5751638294565515/1190157389";
+    //public static String AdMob_Int2 = "ca-app-pub-3940256099942544/1033173712";
+    public static String AdMob_Int2 = "ca-app-pub-5751638294565515/1190157389";
+    //public static String AdMob_NativeAdvance1 = "ca-app-pub-3940256099942544/2247696110";
+    public static String AdMob_NativeAdvance1 = "ca-app-pub-5751638294565515/6406254227";
+    //public static String AdMob_NativeAdvance2 = "ca-app-pub-3940256099942544/2247696110";
+    public static String AdMob_NativeAdvance2 = "ca-app-pub-5751638294565515/6406254227";
     public static int AdsClickCount = 0;
-    public static String App_Open = "ca-app-pub-3940256099942544/9257395921";
+    public static String App_Open = "ca-app-pub-5751638294565515/6797707281";
+    //public static String App_Open = "ca-app-pub-3940256099942544/9257395921";
     public static String FbBanner = "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID";
     public static String FbInter = "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID";
     public static String FbNativeB = "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID";
@@ -51,7 +57,7 @@ public class MyApplication extends Application implements Application.ActivityLi
     public static int backAdsClickCount = 0;
     public static int backclick = 5;
     public static int checkInAppUpdate = 0;
-    public static int click = 5;
+    public static int click = 0;
     public static Context context1;
     public static SharedPreferences.Editor editorInApp;
     public static SharedPreferences sharedPreferencesInApp;
