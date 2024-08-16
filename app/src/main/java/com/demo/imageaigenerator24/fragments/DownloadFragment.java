@@ -312,7 +312,7 @@ public class DownloadFragment extends Fragment {
                         try {
                             String string = response.errorBody() != null ? response.errorBody().string() : "Unknown Error";
                             DownloadFragment.this.loadingDialog.dismiss();
-                            DownloadFragment.this.imageView.setBackgroundResource(R.drawable.image_downlaod);
+                            DownloadFragment.this.imageView.setBackgroundResource(R.drawable.inspiration__10);
                             Log.d("DownloadFragment", "Error: " + string);
                             Log.d("DownloadFragment", "onResponse: Received null body or unsuccessful response");
                             return;
@@ -326,7 +326,7 @@ public class DownloadFragment extends Fragment {
                 @Override // retrofit2.Callback
                 public void onFailure(Call<ApiResponse> call, Throwable th) {
                     DownloadFragment.this.loadingDialog.dismiss();
-                    DownloadFragment.this.imageView.setBackgroundResource(R.drawable.image_downlaod);
+                    DownloadFragment.this.imageView.setBackgroundResource(R.drawable.inspiration__10);
                     Log.d("DownloadFragment", "onFailure: " + th.getMessage());
                 }
             });
